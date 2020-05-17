@@ -3,7 +3,7 @@ pipeline{
   stages{
   stage ('Build') {
 
-    step{
+    steps{
     git url: 'https://github.com/SahuAbhinav/m-job'
 
       // Run the maven build
